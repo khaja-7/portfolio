@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khaja Rahmathulla - Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="port.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Khaja.dev</a>
+            <div class="ms-auto">
+                <div class="dropdown">
+                    <button class="btn btn-glass dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        <i class="fas fa-bars"></i> Menu
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#home"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a class="dropdown-item" href="#about"><i class="fas fa-user"></i> About</a></li>
+                        <li><a class="dropdown-item" href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                        <li><a class="dropdown-item" href="#projects"><i class="fas fa-folder-open"></i> Projects</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero-content fade-in">
+                        <h1>Khaja Rahmathulla</h1>
+                        <h2><i class="fas fa-code"></i>Software Developer</h2>
+                        <p>Computer Science student with 9.31 CGPA and experience architecting 4+ web applications using
+                            JavaScript, API integrations, and modern frameworks. Passionate about creating innovative
+                            digital solutions and solved 50+ Leetcode Problems.</p>
+                        <div class="mt-4">
+                            <a href="#contact" class="btn btn-primary-glass"><i class="fas fa-envelope"></i> Contact
+                                Me</a>
+                            <a href="#" class="btn btn-glass" onclick="downloadResume()"><i class="fas fa-download"></i>
+                                Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="fade-in">
+                        <img src="khaja.jpg" alt="Khaja Image" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="glass-card fade-in">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <p><strong>Raghu Engineering College</strong><br>
+                            B.Tech in Computer Science & Engineering<br>
+                            CGPA: 9.31/10.0 (2023-2027)</p>
+                        <p><strong>Sri Venkateswara Junior College</strong><br>
+                            Intermediate in MPC<br>
+                            Percentage: 97.8%</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="glass-card fade-in">
+                        <h3><i class="fas fa-trophy"></i> Achievements</h3>
+                        <p>• First Place Winner - Ideathon Competition (100+ participants)</p>
+                        <p>• Top 5% Performer - Skillrack DSA Leaderboard (15/300+)</p>
+                        <p>• Tournament Champion - Raghu Premier League Cricket</p>
+                        <p>• Academic Excellence - 9.31+ CGPA across 4 semesters</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Technical Skills</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="glass-card fade-in">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="mt-3">
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">C</span>
+                            <span class="skill-badge">JavaScript (ES6+)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="glass-card fade-in">
+                        <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                        <div class="mt-3">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">React.js</span>
+                            <span class="skill-badge">Bootstrap</span>
+                            <span class="skill-badge">Tailwind CSS</span>
+                            <span class="skill-badge">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="glass-card fade-in">
+                        <h3><i class="fas fa-server"></i> Backend & Database</h3>
+                        <div class="mt-3">
+                            <span class="skill-badge">JSP</span>
+                            <span class="skill-badge">Servlets</span>
+                            <span class="skill-badge">JDBC</span>
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="glass-card fade-in">
+                        <h3><i class="fas fa-tools"></i> Development Tools</h3>
+                        <div class="mt-3">
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">Linux</span>
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section with Carousel -->
+    <section id="projects" class="section">
+        <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+
+            <div class="carousel-container fade-in">
+                <div class="ratio-indicator">16:9</div>
+
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="carouselTrack" aria-live="polite">
+                        <!-- Project 1: Weather Application -->
+                        <div class="carousel-slide" role="group" aria-label="Slide 1">
+                            <div class="project-image">
+                                <img src="weather.png" alt="Weather App Screenshot"
+                                    style="width:100%;height:100%;object-fit:contain;border-radius:15px;box-shadow:0 8px 32px rgba(0,0,0,0.08);margin-bottom:10px;">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Real-Time Weather Application</h3>
+                                <p class="project-description">
+                                    Real-time weather forecasting app serving 100+ daily users via OpenWeatherMap API
+                                    integration with responsive design.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">REST API</span>
+                                    <span class="tech-badge">HTML5</span>
+                                    <span class="tech-badge">CSS3</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://khaja-7.github.io/weather-app/" target="_blank"
+                                        class="project-link primary" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                    <a href="https://github.com/khaja-7" target="_blank" class="project-link"
+                                        rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2: Currency Converter -->
+                        <div class="carousel-slide" role="group" aria-label="Slide 2">
+                            <div class="project-image">
+                                <img src="currency_converter.png" alt="Currency Converter Screenshot"
+                                    style="width:100%;height:100%;object-fit:contain;border-radius:15px;box-shadow:0 8px 32px rgba(0,0,0,0.08);margin-bottom:10px;">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Currency Converter</h3>
+                                <p class="project-description">
+                                    Real-time currency conversion tool supporting 50+ currencies with optimized API
+                                    calls and lightweight UI.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">API Integration</span>
+                                    <span class="tech-badge">Bootstrap</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://khaja-7.github.io/currency-converter/" target="_blank"
+                                        class="project-link primary" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                    <a href="https://github.com/khaja-7" target="_blank" class="project-link"
+                                        rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3: Hand Cricket Game -->
+                        <div class="carousel-slide" role="group" aria-label="Slide 3">
+                            <div class="project-image">
+                                <img src="hand_cricket.png" alt="Hand Cricket Game Screenshot"
+                                    style="width:100%;height:100%;object-fit:contain;border-radius:15px;box-shadow:0 8px 32px rgba(0,0,0,0.08);margin-bottom:10px;">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Interactive Hand Cricket Game</h3>
+                                <p class="project-description">
+                                    Interactive browser-based cricket game with scoring algorithms and AI opponent
+                                    logic.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">Game Logic</span>
+                                    <span class="tech-badge">HTML5</span>
+                                    <span class="tech-badge">CSS3</span>
+                                </div>
+                                <div class="project-links">
+                                    <!-- Hand cricket demo path had a space in earlier markup; we percent-encode it to avoid broken URL -->
+                                    <a href="https://khaja-7.github.io/hand_cricket/t/" target="_blank"
+                                        class="project-link primary" rel="noopener noreferrer">
+                                        <i class="fas fa-gamepad"></i> Play Game
+                                    </a>
+                                    <a href="https://github.com/khaja-7" target="_blank" class="project-link"
+                                        rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4: Future Project -->
+                        <div class="carousel-slide" role="group" aria-label="Slide 4">
+                            <div class="placeholder-image project-image">
+                                <div>
+                                    <i class="fas fa-code fa-3x mb-3"></i>
+                                    <br>Future Project Screenshot
+                                    <br><small>Coming Soon...</small>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Next Innovation</h3>
+                                <p class="project-description">
+                                    Currently working on exciting new projects that push the boundaries of web
+                                    development. Stay tuned for updates on cutting-edge applications.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge">React.js</span>
+                                    <span class="tech-badge">Node.js</span>
+                                    <span class="tech-badge">MongoDB</span>
+                                    <span class="tech-badge">REST APIs</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-clock"></i> Coming Soon
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <button class="carousel-nav prev" id="prevBtn" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-nav next" id="nextBtn" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- Indicators (generated by JS) -->
+                <div class="carousel-indicators" id="carouselIndicators" aria-hidden="false"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info fade-in">
+                        <h3><i class="fas fa-envelope"></i> Let's Connect</h3>
+                        <p class="lead">I'm always open to discussing new opportunities and interesting projects.</p>
+                        <div class="mt-4">
+                            <p><i class="fas fa-envelope"></i> khajarahmathulla8931@gmail.com</p>
+                            <p><i class="fas fa-phone"></i> +91 6301654727</p>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="https://www.linkedin.com/in/khaja-rahmathulla-360998316" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/khaja-7" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:khajarahmathulla8931@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="mt-4">
+                            <a href="#home" class="btn btn-primary-glass">Back to Top</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Khaja Rahmathulla. All rights reserved. Crafted with ❤️ and lots of coffee.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="port.js"></script>
+</body>
+
+</html>
