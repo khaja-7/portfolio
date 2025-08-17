@@ -39,7 +39,7 @@ This portfolio showcases my background as a **Software Developer** and highlight
 ##  Live Site & Source
 
 - **Live Demo**: [Portfolio Website](https://khaja-7.github.io/portfolio/)
-- **Source Code**: [GitHub Repository](https://github.com/khaja-7/portfolio) *(link to your repo here—please update if different)*
+- **Source Code**: [GitHub Repository](https://github.com/khaja-7/portfolio) 
 
 ##  Contact Me
 
