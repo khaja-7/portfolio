@@ -46,5 +46,5 @@ This portfolio showcases my background as a **Software Developer** and highlight
 Feel free to reach out to discuss collaboration, internships, or just to connect:
 
 - **Email**: khajarahmathulla8931@gmail.com  
-- **LinkedIn**: [Profile Link]  
+- **LinkedIn**: www.linkedin.com/in/khaja-rahmathulla-360998316  
 - **GitHub**: [khaja-7](https://github.com/khaja-7)
